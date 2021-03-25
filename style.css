@@ -5,6 +5,7 @@ body {
   margin: 2em;
   background-color: slategrey;
   color: white;
+  text-align: center;
 }
 
 h1 {
@@ -43,25 +44,34 @@ button {
   background: lightyellow;
 }
 
+#button5 {
+  background: lightgrey;
+}
+
+#button6 {
+  background: lightsalmon;
+}
+
 #button1:active, #button1.lit {
   background: green;
 }
 
-#button2:active #button2.lit {
+#button2:active, #button2.lit {
   background: blue;
 }
 
-#button3:active #button3.lit {
+#button3:active, #button3.lit {
   background: red;
 }
 
-#button4:active #button4.lit {
+#button4:active, #button4.lit {
   background: yellow;
 }
 
+#button5:active, #button5.lit {
+  background: grey;
+}
 
-
-
-
-
-
+#button6:active, #button6.lit {
+  background: salmon;
+}
